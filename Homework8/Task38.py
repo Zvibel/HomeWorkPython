@@ -138,7 +138,7 @@ def save_spravochnik(data):
     print("Справочник сохранен")
 
 
-spravochnik = read_csv("phonebook.csv")
+spravochnik = read_csv(r'C:\Users\CastAway\Desktop\GITGB\HomeWorkPython\HomeWork\Homework8\phonebook.csv')
 
 choise = 0
 while choise != 6:
