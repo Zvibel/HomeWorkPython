@@ -1,4 +1,3 @@
-1
 def read_csv(filename=(r'C:\Users\CastAway\Desktop\GITGB\HomeWorkPython\HomeWork\Homework8\phonebook.csv')):
     """Функция читает csv-файл и возвращает список списков - строк csv-файла."""
     with open(filename, 'r', encoding='utf-8') as file:
